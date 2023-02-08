@@ -1,0 +1,31 @@
+Ans 1.
+
+GIT
+Definition - A version control system for tracking changes in files and coordinating work on those files among multiple people.
+Purpose - To manage and track changes in code locally on a computer.
+Installation - Installed locally on a computer.
+Location - Code is stored locally on the user's computer.
+
+GITHUB
+Definition - A web-based hosting service for version control repositories that utilize Git. 
+            It provides additional features such as bug tracking, project management, and collaboration tools.
+Purpose - To store and collaborate on code repositories online, with additional features such as bug tracking, project management, and collaboration tools.
+Installation - No local installation required, accessed through the web. 
+Location - Code is stored in the cloud on GitHub's servers.
+
+Ans2.
+
+git clone - This command is used to clone an existing Git repository from a remote location to your local machine.
+git init - This command is used to initialize a new Git repository in the current directory.
+git commit - This command is used to save changes to the local repository. It takes all the staged changes and creates a new commit with a message describing the changes.
+git push - This command is used to send the committed changes to a remote repository, such as GitHub. This allows others to access and review the changes.
+git add - git add command is used to stage changes in the working directory to be committed to the repository.
+
+Ans3.
+
+Fork the repository, Go to the repository on GitHub that you want to and click "Fork" button to create a copy of the repository
+Clone the repository, Clone the forked repository to your local machine using git clone "URL of Repo."
+Create a new branch, Create a new branch to keep your changes separate from the master branch using git checkout -b "branch name"
+Make changes, Use git add (filename) to stage the changes and git commit -m "message" to commit the changes
+Push the changes to the remote branch using git push origin (branch-name)
+click the "Compare & pull request" button. Fill in a descriptive title and detailed description of your changes
